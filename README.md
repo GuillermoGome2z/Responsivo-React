@@ -42,15 +42,3 @@ La adaptación de la interfaz se realiza mediante una combinación de **clases u
 <div className="col-12 col-sm-6 col-lg-4">
 
 
-## 🛠️ Stack Tecnológico
-React (Vite)
-
-TypeScript
-
-Bootstrap 5
-
-CSS personalizado para animaciones y ajustes responsivos
-
-
-
-
