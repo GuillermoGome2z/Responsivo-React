@@ -41,6 +41,8 @@ La adaptación de la interfaz se realiza mediante una combinación de **clases u
 ## 📱💻 Estrategia de Responsividad
 
 Se usaron **clases responsivas de Bootstrap** y **CSS propio**:
+**Ejemplo de grid:**
+<div className="col-12 col-sm-6 col-lg-4">
 
 - **Móviles (≤600px)**
   - Navegación colapsada (hamburguesa) mediante `navbar-expand-lg`.
@@ -62,6 +64,7 @@ Se usaron **clases responsivas de Bootstrap** y **CSS propio**:
     {/* Card */}
   </div>
 </div>
+```
 
 
 ##Ejemplo de media query documentada en CSS:**
