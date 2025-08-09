@@ -1,10 +1,11 @@
 # 🌐 PixelWave Studio – Proyecto de Diseño Responsivo en React + TypeScript + Bootstrap  
 
-## 📸 Capturas de Pantalla  
+## 📸 Capturas de Pantalla
 
 | Vista Móvil (≤600px) | Vista Tableta (601px – 1024px) | Vista Escritorio (>1024px) |
 |----------------------|--------------------------------|----------------------------|
-| ![Móvil](ruta-captura-movil.png) | ![Tableta](ruta-captura-tablet.png) | ![Escritorio](ruta-captura-escritorio.png) |
+| ![Móvil](./assets/mobile.png) | ![Tableta](./assets/tablet.png) | ![Escritorio](./assets/desktop.png) |
+
 
 ---
 
