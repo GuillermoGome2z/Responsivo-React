@@ -38,8 +38,72 @@ La adaptación de la interfaz se realiza mediante una combinación de **clases u
 - Tarjetas en **3 columnas** (`col-lg-4`).
 - Proporciones fluidas con `ratio-16x9` para imágenes.
 
-**Ejemplo de grid responsivo:**
+## 📱💻 Estrategia de Responsividad
+
+Se usaron **clases responsivas de Bootstrap** y **CSS propio**:
+
+- **Móviles (≤600px)**
+  - Navegación colapsada (hamburguesa) mediante `navbar-expand-lg`.
+  - Tarjetas en **1 columna**: `col-12`.
+  - Tipografía fluida con `clamp()` y ajustes de espacios con `py-*`, `my-*`.
+
+- **Tabletas (601px–1024px)**
+  - Tarjetas en **2 columnas**: `col-sm-6`.
+  - Espaciado con `g-4`.
+
+- **Escritorio (>1024px)**
+  - Tarjetas en **3 columnas**: `col-lg-4`.
+  - Proporciones de imagen estables con `ratio-16x9` o `object-fit: cover`.
+
+**Ejemplo de grid:**
 ```jsx
-<div className="col-12 col-sm-6 col-lg-4">
+<div className="row g-4">
+  <div className="col-12 col-sm-6 col-lg-4">
+    {/* Card */}
+  </div>
+</div>
+
+
+##Ejemplo de media query documentada en CSS:**
+
+css
+Copiar
+Editar
+/* ≤600px: mejora legibilidad en móvil */
+@media (max-width: 600px) {
+  h1.display-5 { font-size: 1.8rem; }
+  .navbar-brand span { font-size: 1rem; }
+}
+🧰 Stack
+React (Vite)
+
+TypeScript
+
+Bootstrap 5
+
+CSS (micro-interacciones y ajustes de responsividad)
+
+🚀 Despliegue
+Demo en Netlify: https://TU-SITIO-NETLIFY.netlify.app
+
+Repositorio: https://github.com/GuillermoGome2z/Responsivo-React
+
+Para desplegar en Netlify (con Git): Build: npm run build • Publish directory: dist/.
+
+▶️ Desarrollo local
+bash
+Copiar
+Editar
+# instalar dependencias
+npm install
+
+# entorno de desarrollo
+npm run dev
+
+# compilar para producción
+npm run build
+
+# servir build local (opcional)
+npm run preview
 
 
