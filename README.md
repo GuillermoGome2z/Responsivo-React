@@ -4,7 +4,7 @@
 
 | Vista Móvil (≤600px) | Vista Tableta (601px – 1024px) | Vista Escritorio (>1024px) |
 |----------------------|--------------------------------|----------------------------|
-| ![Móvil](./assets/mobile.png) | ![Tableta](./assets/tablet.png) | ![Escritorio](./assets/desktop.png) |
+| ![Móvil](./assets/mobile.png) | ![Tableta](./assets/tableta.png) | ![Escritorio](./assets/computadora.png) |
 
 
 ---
