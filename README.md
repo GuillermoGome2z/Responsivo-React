@@ -1,78 +1,42 @@
-🌐 PixelWave Studio – Proyecto de Diseño Responsivo en React + TypeScript + Bootstrap
-📸 Capturas de Pantalla
-Vista Móvil (≤600px)
-(Aquí insertas la captura)
+# 🌐 PixelWave Studio – Proyecto de Diseño Responsivo en React + TypeScript + Bootstrap  
 
-Vista Tableta (601px – 1024px)
-(Aquí insertas la captura)
+## 📸 Capturas de Pantalla  
 
-Vista Escritorio (>1024px)
-(Aquí insertas la captura)
+| Vista Móvil (≤600px) | Vista Tableta (601px – 1024px) | Vista Escritorio (>1024px) |
+|----------------------|--------------------------------|----------------------------|
+| ![Móvil](ruta-captura-movil.png) | ![Tableta](ruta-captura-tablet.png) | ![Escritorio](ruta-captura-escritorio.png) |
 
-🎯 Descripción del Proyecto
-Este proyecto es una aplicación web desarrollada en React con TypeScript y el framework de estilos Bootstrap.
-El objetivo es implementar un diseño responsivo que se adapte de forma óptima a dispositivos móviles, tabletas y computadoras de escritorio.
+---
 
-La aplicación incluye:
+## 📝 Descripción del Proyecto  
 
-Encabezado (Header) con logotipo y menú de navegación.
+Este proyecto es una aplicación web desarrollada con **React**, **TypeScript** y **Bootstrap**, diseñada para ofrecer una experiencia **responsiva** que se adapta a dispositivos móviles, tabletas y computadoras de escritorio.  
 
-Contenido principal (Main) con título y párrafo descriptivo.
+### Características principales:  
+- **Encabezado (Header)** con logotipo y menú de navegación.  
+- **Contenido principal (Main)** con título y párrafo descriptivo.  
+- **Sección (Section)** con tres tarjetas (cards) mostrando servicios o proyectos.  
+- **Pie de página (Footer)** con enlaces a redes sociales.  
 
-Sección (Section) con al menos tres tarjetas (cards) para mostrar servicios/proyectos.
+---
 
-Pie de página (Footer) con enlaces a redes sociales.
+## 📱💻 Estrategia de Diseño Responsivo  
 
-📱💻 Estrategia de Diseño Responsivo
-El diseño responsivo se logra combinando clases utilitarias de Bootstrap y media queries personalizadas:
+La adaptación de la interfaz se realiza mediante una combinación de **clases utilitarias de Bootstrap** y **media queries personalizadas**:  
 
-Móviles (≤600px):
+### Móviles (≤600px)  
+- Menú hamburguesa (`navbar-expand-lg`).
+- Tarjetas en **1 columna** (`col-12`).
+- Fuentes y márgenes adaptados con `clamp()` y clases `py-*`, `my-*`.
 
-Menú convertido en menú hamburguesa con navbar-expand-lg.
+### Tabletas (601px – 1024px)  
+- Tarjetas en **2 columnas** (`col-sm-6`).
+- Espaciado optimizado con `g-4`.
 
-Tarjetas apiladas en 1 columna usando col-12.
+### Escritorio (>1024px)  
+- Tarjetas en **3 columnas** (`col-lg-4`).
+- Proporciones fluidas con `ratio-16x9` para imágenes.
 
-Fuentes y márgenes ajustados con clamp() y clases py-*, my-*.
-
-Tabletas (601px – 1024px):
-
-Tarjetas en 2 columnas usando col-sm-6.
-
-Espaciado optimizado con g-4 y clases responsivas.
-
-Escritorio (>1024px):
-
-Tarjetas en 3 columnas con col-lg-4.
-
-Diseño optimizado con proporciones fluidas y ratio-16x9 para imágenes.
-
-Ejemplo de grid responsivo usado en las tarjetas:
-
-jsx
-Copiar
-Editar
+**Ejemplo de grid responsivo:**
+```jsx
 <div className="col-12 col-sm-6 col-lg-4">
-Ejemplo de media query personalizada en CSS:
-
-css
-Copiar
-Editar
-@media (max-width: 600px) {
-  h1 { font-size: 1.5rem; }
-}
-🛠️ Stack Tecnológico
-React (Vite)
-
-TypeScript
-
-Bootstrap 5
-
-CSS personalizado para micro-interacciones y media queries adicionales
-
-🚀 Despliegue
-La aplicación está desplegada en Netlify:
-🔗 https://tu-enlace-aqui.netlify.app
-
-Repositorio en GitHub:
-🔗 https://github.com/TuUsuario/TuRepositorio
-
