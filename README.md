@@ -38,5 +38,18 @@ La adaptación de la interfaz se realiza mediante una combinación de **clases u
 - Proporciones fluidas con `ratio-16x9` para imágenes.
 
 **Ejemplo de grid responsivo:**
+
+
+## 🛠️ Stack Tecnológico
+React (Vite)
+
+TypeScript
+
+Bootstrap 5
+
+CSS personalizado para animaciones y ajustes responsivos
+
+
+
 ```jsx
 <div className="col-12 col-sm-6 col-lg-4">
