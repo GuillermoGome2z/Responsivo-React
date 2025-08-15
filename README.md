@@ -66,7 +66,7 @@ Se usaron **clases responsivas de Bootstrap** y **CSS propio**:
 ```
 
 
-##Ejemplo de media query documentada en CSS:**
+#Ejemplo de media query documentada en CSS:**
 
 css
 Copiar
